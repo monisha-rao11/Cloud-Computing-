@@ -11,7 +11,7 @@ pipeline {
            stage('Build') {
                steps {
                     build 'PES2UG22CS809-1'
-                    sh 'g++ main.cpp -o output'
+                    sh 'g++ monisha.cpp -o output'
              }
              }
            stage('Test') {
